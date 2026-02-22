@@ -8,7 +8,9 @@
   "targets": {
     "build": {
       "executor": "@angular/build:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/anime-select-web",
         "browser": "apps/anime-select-web/src/main.ts",
@@ -19,7 +21,10 @@
             "input": "apps/anime-select-web/public"
           }
         ],
-        "styles": ["apps/anime-select-web/src/styles.css"],
+        "styles": [
+          "apps/anime-select-web/src/material-theme.scss",
+          "apps/anime-select-web/src/styles.css"
+        ],
         "server": "apps/anime-select-web/src/main.server.ts",
         "ssr": {
           "entry": "apps/anime-select-web/src/server.ts"

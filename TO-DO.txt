@@ -1,0 +1,24 @@
+
+
+
+add CI/CD 
+
+integrate nx cloud
+
+
+
+/// Others
+
+To get started with GitHub CLI, please run:  gh auth login
+Alternatively, populate the GH_TOKEN environment variable with a GitHub API authentication token.
+
+https://cloud.nx.app/
+https://cloud.nx.app/connect/fuAEpb7Cli 
+
+
+
+
+
+nx g @nx/angular:app apps/app-web
+nx g @angular/material:ng-add --project=app-web
+
